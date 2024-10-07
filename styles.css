@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.one {
+    width: 50%;
+    clip-path: url("#heartPath");
+    /* clip-path: inset(100px 0 0 25px) */
+    /* clip-path: url("#heartPath"); */
+    /* clip-path: circle(); */
+    /* clip-path: circle(50px at 0 100px); */
+}
+
+.two {
+    width: 50%;
+    clip-path: xywh(50px 10px 50% 100% round 15% 0);
+    /* clip-path: circle(50px at center); */
+    /* clip-path: ellipse(130px 140px at 10% 20%); */
+    /* clip-path: xywh(60px 10px 50% 100% round 15% 0); */
+    /* clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z'); */
+    /* clip-path: url("#myBlob"); */
+}
